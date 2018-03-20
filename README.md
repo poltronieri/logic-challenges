@@ -1,2 +1,2 @@
 # logic-challenges
-A repo made to store some logic challenges
+Um repositório feito para armazenar alguns testes de lógica.
