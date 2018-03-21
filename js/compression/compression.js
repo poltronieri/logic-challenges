@@ -1,5 +1,5 @@
-function compression() {
-  return console.log('hahaha');
-}
+const compression = () => {
+  console.log('hahaha');
+};
 
-export { compression };
+export default compression;

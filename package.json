@@ -1,0 +1,14 @@
+{
+  "name": "logic-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/poltronieri/logic-challenges.git",
+  "author": "gpoltronieri <guilherme.moreno@synchro.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "parcel": "parcel index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.2"
+  }
+}

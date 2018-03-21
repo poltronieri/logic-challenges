@@ -1,4 +1,6 @@
-import { compression } from './compression/compression';
+import compression from './compression/compression';
+
+compression();
 
 export default {
   compression,
