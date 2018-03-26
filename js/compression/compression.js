@@ -17,6 +17,9 @@ const compression = () => {
         } else {
           if (currentChar == previousChar) {
             repeats++;
+            if (line.length === position + 1) {
+              result = result.concat(`{${previousChar},${repeats}}`);
+            }
           } else if (currentChar == nextChar) {
             if (repeats > 1) {
               result = result.concat(`{${previousChar},${repeats}}`);
